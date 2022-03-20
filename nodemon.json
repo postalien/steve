@@ -1,0 +1,5 @@
+{
+  "events": {
+    "restart": "yarn prebuild && yarn build"
+  }
+}

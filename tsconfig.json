@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"target": "es2017",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"outDir": "build",
+		"paths": {
+			"*": [ "typings/*" ]
+		},
+		"lib": [
+			"dom",
+			"es5",
+			"es2015",
+			"es2016.array.include",
+			"esnext.asynciterable"
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
